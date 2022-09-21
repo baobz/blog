@@ -2,24 +2,11 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/",
+  lang: "zh-CN",
+  title: "主题演示",
+  description: "vuepress-theme-hope 的演示",
 
-  dest: "./dist",
-
-  locales: {
-    "/": {
-      lang: "en-US",
-      title: "Blog Demo",
-      description: "A blog demo for vuepress-theme-hope",
-    },
-    "/zh/": {
-      lang: "zh-CN",
-      title: "博客演示",
-      description: "vuepress-theme-hope 的博客演示",
-    },
-  },
+  base: "/blog/",
 
   theme,
-
-  shouldPrefetch: false,
 });
