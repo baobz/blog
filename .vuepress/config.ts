@@ -5,6 +5,7 @@ export default defineUserConfig({
   title: "午后南杂",
   description: 'Enjoy when you can, and endure when you must.',
   dest: 'public',
+  base: '/blog/',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
@@ -26,18 +27,18 @@ export default defineUserConfig({
         ]
       }
     ],
-    commentConfig: {
-      type: 'valine',
-      options: {
-        appId: 'Q6hMeY2PSaM9FMkXetzoJoU5-gzGzoHsz',
-        appKey: 'iLQlev5jo2Cm5pLcI0z3qhtr',
-        placeholder: '填写邮箱可以收到回复提醒哦！',
-        verify: true, // 验证码服务
-        // notify: true, //
-        recordIP: true,
-        // hideComments: true
-      },
-    },
+    // commentConfig: {
+    //   type: 'valine',
+    //   options: {
+    //     appId: 'Q6hMeY2PSaM9FMkXetzoJoU5-gzGzoHsz',
+    //     appKey: 'iLQlev5jo2Cm5pLcI0z3qhtr',
+    //     placeholder: '填写邮箱可以收到回复提醒哦！',
+    //     verify: true, // 验证码服务
+    //     // notify: true, //
+    //     recordIP: true,
+    //     // hideComments: true
+    //   },
+    // },
     autoAddCategoryToNavbar: true
   }),
   lang: 'zh-CN',

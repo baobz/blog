@@ -5,7 +5,7 @@ modules:
   - Blog
   - Footer
 banner:
-  bgImage: '/bg.svg'
+  bgImage: '/banner_2.jpg'
   bgImageStyle: {
     height: '550px'
   }
