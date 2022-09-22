@@ -11,8 +11,7 @@
     "dev": "vuepress dev .",
     "build": "vuepress build .",
     "deploy": "bash deploy.sh",
-    "push": "bash scripts/push.sh",
-    "push:deploy": "bash deploy.sh & bash push.sh"
+    "push": "bash push.sh"
   },
   "dependencies": {
     "vuepress": "2.0.0-beta.51",
